@@ -2,7 +2,13 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    overflow-x: hidden;
+}
 
+* {
+    box-sizing: border-box;
+}
 .box-1 {
     background-image: url('background.jpg');
     background-size: cover;
