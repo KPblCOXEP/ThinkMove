@@ -11,7 +11,8 @@ html {
     min-height: 80vh;
     display: flex;
     flex-direction: column;
-    padding: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     width: 100%;
     margin: 0;
     margin-bottom: 10vh;
@@ -124,12 +125,14 @@ a {
     background-color: rgb(91,80,103);
     color: white;
     width: 100%;
-    padding: 200px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .box-3-services{
     display: flex;
     justify-content: space-around;
+    margin-left: 10%;
     margin-right: 10%;
 }
 
@@ -138,7 +141,7 @@ a {
     max-width: 30%;
     font-size: clamp(2.5rem, 4vw, 5rem);
     font-weight: 1;
-    margin-left: 2%;
+    margin-left: 10%;
 }
 
 
@@ -164,7 +167,7 @@ a {
 
 .dash-white {
     background-color: white;
-    margin-left: 2.2%;
+    margin-left: 10%;
     padding-right: 120px;
     padding-bottom: 15px
 }
@@ -188,7 +191,6 @@ a {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
